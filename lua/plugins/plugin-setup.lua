@@ -45,6 +45,16 @@ return require('packer').startup(function(use)
     "neovim/nvim-lspconfig"
   }
 
+  use({
+    "glepnir/lspsaga.nvim",
+    branch = "main",
+    config = function()
+        require("lspsaga").setup({})
+    end,
+    requires = { {"nvim-tree/nvim-web-devicons"} }
+  })
+  use("jose-elias-alvarez/null-ls.nvim")
+
   -- 自动补全
   use "hrsh7th/nvim-cmp"
   use "hrsh7th/cmp-nvim-lsp"
