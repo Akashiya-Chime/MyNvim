@@ -16,6 +16,7 @@ keymap.set("n", "L", "$")
 keymap.set("n", "<leader>h", ":nohlsearch<CR>")
 keymap.set("n", "=", "n")
 keymap.set("n", "-", "N")
+keymap.set("n", ";", ":")
 
 keymap.set("v", "Y", "\"+y")
 
