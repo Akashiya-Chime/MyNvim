@@ -5,7 +5,7 @@ return {
     vim.g.coc_global_extensions = {
       "coc-marketplace",
       "coc-clangd",
-      "coc-lua",
+      -- "coc-lua",
       "coc-rust-analyzer",
       "coc-json",
       "coc-git"
