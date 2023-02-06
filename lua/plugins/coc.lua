@@ -23,6 +23,7 @@ return {
     keyset('n', 'gy', '<Plug>(coc-type-definition)', {silent = true})
     keyset('n', 'gi', '<Plug>(coc-implementation)', {silent = true})
     keyset('n', 'gr', '<Plug>(coc-references)', {silent = true})
+    keyset('n', '<F3>', ':call CocAction("doHover")<CR>', {silent = true})
 
   end
 }
