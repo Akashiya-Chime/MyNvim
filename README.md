@@ -3,15 +3,15 @@
 - *Note: This configuration is set on windows.*
 
 <img src="https://s2.loli.net/2023/02/06/bXIoTFd1MRkNZeA.png" />
----
+
 <img src="https://s2.loli.net/2023/02/06/FjL8eXsTRblkmEP.png" />
----
+
 <img src="https://s2.loli.net/2023/02/06/H3cLorVqstPOGRi.png" />
----
+
 <img src="https://s2.loli.net/2023/02/06/SxAGDvMqF8J3lmC.png" />
----
+
 <img src="https://s2.loli.net/2023/02/06/RiuKqaC1ZhN5jyH.png" />
----
+
 <img src="https://s2.loli.net/2023/02/06/usVmTQlbJ7Y4UxO.png" />
 
 ## How to use
