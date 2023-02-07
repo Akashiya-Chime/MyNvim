@@ -15,7 +15,7 @@ return {
     vim.g.floaterm_opener = "edit"
 
     vim.cmd("au BufEnter * if &buftype == 'terminal' | :call timer_start(50, { -> execute('startinsert!') }, { 'repeat': 3 }) | endif")
-    -- vim.cmd("hi FloatermBorder ctermfg=fg ctermbg=none")
+    vim.cmd("hi FloatermBorder guifg=#f5bde6 guibg=none")
 
     setFTToggleMap("<C-t>", "TERM", "")
   end
