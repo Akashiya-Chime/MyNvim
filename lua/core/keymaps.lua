@@ -2,6 +2,8 @@ vim.g.mapleader = " "
 
 local keymap = vim.keymap
 
+keymap.set("n", "<leader>rc", ":e ~/AppData/Local/nvim<CR>")
+
 keymap.set("n", "<leader>sv", "<C-w>v")
 keymap.set("n", "<leader>sh", "<C-w>s")
 

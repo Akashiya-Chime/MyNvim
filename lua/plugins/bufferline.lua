@@ -21,12 +21,8 @@ return {
         diagnostics = "coc",
         separator_style = "slant",
         indicator = {
-          style = "underline"
-        },
-        hover = {
-          enabled = true,
-          delay = 200,
-          reveal = {'close'}
+          -- style = "underline"
+          style = "none"
         },
       },
     })
