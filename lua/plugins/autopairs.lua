@@ -22,7 +22,19 @@ return {
         highlight = 'Search',
         highlight_grey='Comment'
       },
+      map_cr = false,
     }
+    
+    -- fix the bug with coc.nvim to comfirm completion
+    _G.MUtils = {}
+    MUtils.completion_confirm=function()
+      if vim.fn.pumvisible() ~= 0  then
+        vim.fn["coc#_select_confirm"]()
+      else
+        return npairs.autopairs_cr()
+      end
+    end
+    vim.keymap.set('i', '<S-CR>', 'v:lua.MPairs.completion_confirm()', {expr = true, noremap = true})
 
   end
 }
