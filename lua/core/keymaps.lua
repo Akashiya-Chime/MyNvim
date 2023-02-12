@@ -6,6 +6,7 @@ keymap.set("n", "<leader>rc", ":e ~/AppData/Local/nvim<CR>")
 
 keymap.set("n", "<leader>sv", "<C-w>v")
 keymap.set("n", "<leader>sh", "<C-w>s")
+keymap.set("n", "<leader>s0", "<C-w>c")
 
 keymap.set("n", "S", ":w<CR>")
 keymap.set("n", "Q", ":q<CR>")
@@ -28,3 +29,9 @@ keymap.set("n", "<C-b>", ":NvimTreeToggle<CR>")
 -- change buffer
 keymap.set("n", "<C-]>", ":bnext<CR>")
 keymap.set("n", "<C-[>", ":bprevious<CR>")
+
+-- indent
+keymap.set("n", ".", ">>")
+keymap.set("n", ",", "<<")
+keymap.set("v", ".", ">>")
+keymap.set("v", ",", "<<")
