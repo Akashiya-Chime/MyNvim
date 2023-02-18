@@ -24,6 +24,10 @@ return {
           -- style = "underline"
           style = "none"
         },
+        numbers = function(opts)
+          return string.format('%s', opts.raise(opts.ordinal))
+          -- return string.format('%s', opts.ordinal)
+        end,
       },
     })
   end
