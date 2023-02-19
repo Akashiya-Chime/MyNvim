@@ -31,7 +31,6 @@ keymap.set("n", "<C-]>", ":bnext<CR>")
 keymap.set("n", "<C-[>", ":bprevious<CR>")
 
 -- indent
-keymap.set("n", ".", ">>")
-keymap.set("n", ",", "<<")
-keymap.set("v", ".", ">>")
-keymap.set("v", ",", "<<")
+keymap.set({"n", "v"}, ".", ">>")
+keymap.set({"n", "v"}, ",", "<<")
+
